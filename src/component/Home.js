@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/esm/Row"
 import Col from "react-bootstrap/Col"
-import Stack from "react-bootstrap/Stack"
 import Button from "react-bootstrap/Button"
 
 function Home() {
@@ -24,6 +23,12 @@ function Home() {
             </Col>
             <Col>
             <Button href="/alerts" variant="primary" size="lg">Alerts</Button>
+            </Col>
+            <Col>
+            <Button href="/accordions" variant="primary" size="lg">Accordions</Button>
+            </Col>
+            <Col>
+            <Button href="/modals" variant="primary" size="lg">Modals</Button>
             </Col>
             </Row>
         </Container>

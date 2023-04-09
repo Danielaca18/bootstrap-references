@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card"
-import Container from "react-bootstrap/Container"
 import Stack from "react-bootstrap/Stack"
 
 function Stacks() {
