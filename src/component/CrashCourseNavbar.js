@@ -11,6 +11,7 @@ function CrashCourseNavbar() {
                 <Nav.Link href="home">Home</Nav.Link>
                 <Nav.Link href="buttons">Buttons</Nav.Link>
                 <Nav.Link href="cards">Cards</Nav.Link>
+                <Nav.Link href="stacks">Stacks</Nav.Link>
             </Nav>
         </Container>
     </Navbar>
