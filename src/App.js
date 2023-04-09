@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-
 
 import Home from "./component/Home"
 import Buttons from "./component/Buttons"
+import Cards from "./component/Cards"
 import CrashCourseNavbar from "./component/CrashCourseNavbar"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
                 <Routes>
                     <Route path='/buttons' element={<Buttons />}></Route>
+                    <Route path='/cards' element={<Cards />}></Route>
                     <Route path='/home' element={<Home/>}></Route>
                     <Route path='' element={<Home/>}></Route>
                 </Routes>

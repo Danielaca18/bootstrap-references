@@ -10,6 +10,7 @@ function CrashCourseNavbar() {
             <Nav className="me-auto">
                 <Nav.Link href="home">Home</Nav.Link>
                 <Nav.Link href="buttons">Buttons</Nav.Link>
+                <Nav.Link href="cards">Cards</Nav.Link>
             </Nav>
         </Container>
     </Navbar>
