@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom"
 
+import Stacks from "./component/Stacks"
 import Home from "./component/Home"
 import Buttons from "./component/Buttons"
 import CrashCourseNavbar from "./component/CrashCourseNavbar"
@@ -15,6 +16,7 @@ function App() {
                 <Routes>
                     <Route path='/buttons' element={<Buttons />}></Route>
                     <Route path='/home' element={<Home/>}></Route>
+                    <Route path='/stacks' element={<Stacks />}></Route>
                     <Route path='' element={<Home/>}></Route>
                 </Routes>
             </header>
