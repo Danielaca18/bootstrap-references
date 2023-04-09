@@ -22,6 +22,9 @@ function Home() {
             <Col>
             <Button href="/stacks" variant="primary" size="lg">Stacks</Button>
             </Col>
+            <Col>
+            <Button href="/alerts" variant="primary" size="lg">Alerts</Button>
+            </Col>
             </Row>
         </Container>
         
